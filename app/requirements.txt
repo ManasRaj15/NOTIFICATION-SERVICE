@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+databases
+sqlalchemy
+asyncpg
+pydantic
+python-dotenv
+aiosmtplib
+twilio
+psycopg2-binary

@@ -1,0 +1,13 @@
+{
+  "name": "notification-service-lite",
+  "version": "1.0.0",
+  "description": "Simple in-memory notification service (no Redis)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^9.0.1"
+  }
+}

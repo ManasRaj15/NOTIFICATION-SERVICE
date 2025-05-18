@@ -1,16 +1,16 @@
 # NOTIFICATION-SERVICE
-A robust and modular notification system built using **Flask** and **Node.js**, enabling the delivery of notifications via Email, SMS, and In-App methods. The service uses **MongoDB** for storage and features a React-based user interface.
+A robust and modular notification system built using **Flask** and **Node.js**, enabling the delivery of notifications via Email, SMS, and In-App methods. The service uses  a React-based user interface.
 
 
 ## 🔧 Features
 
-- 🔹 Send notifications through:
+- Send notifications through:
   - Email (via SMTP)
   - SMS (via Twilio)
   - In-App (file-based or database)
-- 🔹 Retrieve user-specific notifications
-- 🔹 Automatic retry mechanism for failed deliveries
-- 🔹 API documentation via Swagger UI
+-  Retrieve user-specific notifications
+-  Automatic retry mechanism for failed deliveries
+-  API documentation via Swagger UI
 
 
 
@@ -18,8 +18,6 @@ A robust and modular notification system built using **Flask** and **Node.js**, 
 
 - **Flask (Python):** Core API for notifications
 - **Node.js (Express):** Auxiliary services & retry logic
-- **MongoDB:** NoSQL database for notification storage
-- **Mongoose / PyMongo:** Database access libraries
 - **React.js:** Frontend dashboard
 - **Twilio:** SMS delivery service
 - **Google SMTP:** Email dispatch
